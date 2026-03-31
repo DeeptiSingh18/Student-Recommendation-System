@@ -1,4 +1,6 @@
 # Student-Recommendation-System
+# By - Deepti Singh
+# Registration no.: 25BAI10058
 
 ## Overview
 The student Recommendation System is a simple rule-based application developed using python.It helps students identify suitable career paths based on their interests, strengths, academic performance and preferred subjects.
