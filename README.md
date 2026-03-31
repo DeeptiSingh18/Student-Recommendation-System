@@ -39,6 +39,28 @@ The system follows a scoring-based approach:
 3) The system calculates the total score for each career field.
 4) The career option wwith the highest score is selected and displayed as the recommendation.
 
+## Concepts Used
+# 1. Rule-Based System
+The system uses predefined rules to assign scores to different career options based on user input.
+# 2. Search Algorithm (BFS)
+Breadth-First Search (BFS) is used to select the best career option from the sorted list of results.
+# 3. Machine Learning (Basic)
+A simple prediction model is implemented using pattern matching on sample data to simulate machine learning behavior.
+# 4. Decision-Making Logic
+The system combines rule-based results and ML predictions to generate the final output.
+
+# Project Structure
+1)student-recommendation-system
+2)main.py          
+3)Main program (user interaction) 
+4)model.py         
+5)Core logic (AI, BFS, ML) 
+6)utils.py         
+7)Helper functions 
+8)student_data.txt 
+9)Stores user data 
+10)README.md
+
 ## How to Run the Project??
 Step 1: Open terminal Navigate to the project folder.
 Step 2: Run the program bash python student_recommendation.py
